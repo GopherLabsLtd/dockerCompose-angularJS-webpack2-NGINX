@@ -49,6 +49,21 @@ docker-compose up
 Ideally you'd want to `cd` into the `nodeapp` folder, run webpack-dev-server and keep applying your changes.
 Once you're done, you would build out the containers.
 
+- **To Run webpack-dev-server**
+```shell
+cd nodeapp && npm run dev
+```
+
+- **Build using webpack and run the express server**
+```shell
+cd nodeapp && npm run prod
+```
+
+- **Run the express server without building**
+```shell
+cd nodeapp && npm start
+```
+
 ### Contributing
 If you feel that something is missing, make an issue! 🙂
 If you want do add something, just make a Pull Request.
