@@ -15,25 +15,40 @@ All inside Docker.
 - Excracts bundles to files instead of inline (all minified) 🔥
 
 ### Usage
-**1-** Install webpack:
+**1-** Clone the repo
 ```shell
-npm install -g webpack
+git clone https://github.com/preciousDev/dockerCompose-angularJS-webpack2-NGINX.git
 ```
 
-**2-** Install the dependecies:
+**2-** Create a docker-machine
 ```shell
-npm install
+docker-machine create --driver virtualbox test
 ```
 
-**3-** To start the webpack-dev-server:
+**3-** Switch to the new machine
 ```shell
-npm run dev
+docker-machine env test
 ```
 
-**4-** To build and run:
+**4-** Run this command to configure your shell:
 ```shell
-npm start
+eval $(docker-machine env test)
 ```
+
+**5-** Build through docker-compose:
+```shell
+docker-compose build --no-cache
+```
+
+**6-** After the build is finish, bring the containers up using:
+```shell
+docker-compose up
+```
+
+### Important Note
+Ideally you'd want to `cd` into the `nodeapp` folder, run webpack-dev-server and keep applying your changes.
+Once you're done, you would build out the containers.
+
 ### Contributing
 If you feel that something is missing, make an issue! 🙂
 If you want do add something, just make a Pull Request.
