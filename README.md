@@ -1,4 +1,4 @@
-# Docker Compose + Express + AngularJS Material + Webpack 2 + ocLazyLoad + NGINX
+# Docker Compose + Express + AngularJS (Material - ocLazyLoad) + Webpack 2 + NGINX
 ![angular 1.5.9](https://img.shields.io/badge/angular-1.5.9-brightgreen.svg) ![webpack 2.2.1](https://img.shields.io/badge/webpack-2.2.1-brightgreen.svg) ![NGINX 1.11.10](https://img.shields.io/badge/NGINX-1.11.10-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This is an express server setup being built using webpack, and running lazy-loaded angular-material on the frontend.
