@@ -6,7 +6,7 @@ LABEL description="Node Boron (TLS)"
 LABEL author="PreciousDev"
 LABEL authorURL="https://github.com/preciousDev"
 
-RUN npm install -g webpack webpack-dev-server
+RUN npm install -g webpack
 
 # Create the app directory
 RUN mkdir -p /usr/src/app1
