@@ -14,9 +14,7 @@ All inside Docker.
 - Bundles CSS, JS, images, fonts & videos
 - Excracts bundles to files instead of inline (all minified) 🔥
 
-The `docker-compose.yml` file configures 1 instance of our Express app, along with 2 replicas, and 1 instance of nginx to load-balance the 3 Express instances.
-
-**The `docker-compose-alpine.yml` file currently only supports alpine for NGINX, since sass-loader is still problematic on alpine**
+**The `docker-compose-alpine.yml` file currently only supports alpine for NGINX, since sass-loader is still problematic on alpine** 😞
 
 ### Usage
 **1-** Clone the repo
