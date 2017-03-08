@@ -6,6 +6,7 @@ services:
   nodeapp1:
     build:
       # Look for the Dockerfile inside the "nodeapp" folder
+      # No alpine version for the nodeapp for now, since sass-loader is still problematic
       context: ./nodeapp
       dockerfile: Dockerfile
     restart: always
