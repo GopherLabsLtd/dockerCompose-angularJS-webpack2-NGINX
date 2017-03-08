@@ -1,0 +1,20 @@
+div {
+    &.profile-pic {
+        width: 128px;
+        margin: auto;
+
+        img {
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+}
+
+md-list-item {
+    p {
+        &.right {
+            text-align: right;
+        }
+    }
+}
