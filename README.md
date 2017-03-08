@@ -4,7 +4,7 @@
 This is an express server setup being built using webpack, and running lazy-loaded angular-material on the frontend.
 All inside Docker.
 
-<img src="https://raw.githubusercontent.com/preciousDev/angularMaterial-webpack2-ocLazyLoad/master/preview.gif" alt="An express app running angularJS, built through webpack and lazy-loaded assets" style="max-width: 100%;" width="1000">
+<img src="https://raw.githubusercontent.com/preciousDev/angularMaterial-webpack2-ocLazyLoad/master/preview.gif" alt="An express app running angularJS, built through webpack and lazy-loaded assets" style="max-width: 100%;" width="600">
 
 ### Current Webpack Configs
 - Reads Sass & bundles into the final CSS 🎉
@@ -47,7 +47,7 @@ docker-compose build --no-cache
 docker-compose up
 ```
 
-<img src="https://raw.githubusercontent.com/preciousDev/dockerCompose-angularJS-webpack2-NGINX/master/dockercomposeup.jpg" alt="Node.js app built through Webpack2, running AngularJS, load-balanced by NGINX inside Docker Containers ☁️️ 🐳" style="max-width: 100%;" width="600">
+<img src="https://raw.githubusercontent.com/preciousDev/dockerCompose-angularJS-webpack2-NGINX/master/dockercomposeup.jpg" alt="Node.js app built through Webpack2, running AngularJS, load-balanced by NGINX inside Docker Containers ☁️️ 🐳" style="max-width: 100%;" width="1000">
 
 ### Important Note
 Ideally you'd want to `cd` into the `nodeapp` folder, run webpack-dev-server and keep applying your changes.
