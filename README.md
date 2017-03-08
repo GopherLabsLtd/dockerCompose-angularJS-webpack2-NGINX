@@ -47,6 +47,8 @@ docker-compose build --no-cache
 docker-compose up
 ```
 
+<img src="https://raw.githubusercontent.com/preciousDev/dockerCompose-angularJS-webpack2-NGINX/master/dockercomposeup.jpg" alt="Node.js app built through Webpack2, running AngularJS, load-balanced by NGINX inside Docker Containers ☁️️ 🐳" style="max-width: 100%;" width="600">
+
 ### Important Note
 Ideally you'd want to `cd` into the `nodeapp` folder, run webpack-dev-server and keep applying your changes.
 Once you're done, you would build out the containers.
