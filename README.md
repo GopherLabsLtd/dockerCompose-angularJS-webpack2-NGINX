@@ -1,4 +1,4 @@
-# Docker Compose + Express + AngularJS Material + Webpack 2 + ocLazyLoad + NGINX
+# Docker Compose + Express + AngularJS (Material - ocLazyLoad) + Webpack 2 + NGINX
 ![angular 1.5.9](https://img.shields.io/badge/angular-1.5.9-brightgreen.svg) ![webpack 2.2.1](https://img.shields.io/badge/webpack-2.2.1-brightgreen.svg) ![NGINX 1.11.10](https://img.shields.io/badge/NGINX-1.11.10-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This is an express server setup being built using webpack, and running lazy-loaded angular-material on the frontend.
@@ -14,9 +14,7 @@ All inside Docker.
 - Bundles CSS, JS, images, fonts & videos
 - Excracts bundles to files instead of inline (all minified) 🔥
 
-The `docker-compose.yml` file configures 1 instance of our Express app, along with 2 replicas, and 1 instance of nginx to load-balance the 3 Express instances.
-
-**The `docker-compose-alpine.yml` file currently only supports alpine for NGINX, since sass-loader is still problematic on alpine**
+**The `docker-compose-alpine.yml` file currently only supports alpine for NGINX, since sass-loader is still problematic on alpine** 😞
 
 ### Usage
 **1-** Clone the repo
